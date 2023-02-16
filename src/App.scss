@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;700&family=Days+One&family=Roboto:wght@300;400;500;700&family=Varela+Round&display=swap');
+@import "./scss/colors";
+@import "./scss/bootstrap";
+@import "./scss/libraries";
+@import "./scss/header";
+@import "./scss/auth";
+@import "./scss/userProfile";
+@import "./scss/dashboard";
+@import "./scss/home";
+
+// font-family: 'Baloo Bhai 2', cursive;
+// font-family: 'Days One', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Varela Round', sans-serif;
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}

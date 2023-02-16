@@ -1,0 +1,23 @@
+.users {
+    background: #78FBD4;
+    background: -webkit-linear-gradient(to bottom, #78FBD4, #99C184);
+    background: linear-gradient(to bottom, #78FBD4, #99C184);
+    min-height: 100vh;
+
+    .usersImg {
+        width: 150px;
+        height: 150px;
+        border: 5px solid rgb(218, 218, 218);
+        border-radius: 50%;
+        position: relative;
+        margin: 10px 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+    }
+}
